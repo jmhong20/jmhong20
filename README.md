@@ -16,3 +16,5 @@ Here are some ideas to get you started:
 -->
 
 👨‍💻 I'm [Jaemin Hong], a graduate student passionate about financial AI and reinforcement learning.
+
+conda env create -f environment.yml
