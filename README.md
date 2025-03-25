@@ -28,11 +28,11 @@ How to import my vimrc:
 >Get inside of vim and then :CocInstall coc-pyright \
 >Copy my coc-settings.json into ~/.vim/coc-settings.json \
 >Then, pip install flake8 black \
->Lastly, CocInstall coc-snippets \
+>Lastly, CocInstall coc-snippets
 
 Issues with nodejs npm
 >curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash \
 >source ~/.bashrc   # or ~/.zshrc, depending on your shell \
 >nvm install 18 \
 >nvm use 18 \
->nvm alias default 18 \
+>nvm alias default 18
