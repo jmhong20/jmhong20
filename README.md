@@ -19,3 +19,20 @@ Here are some ideas to get you started:
 
 How to import my conda environments:
 >conda env create -f environment.yml
+
+How to import my vimrc:
+>First copy my vimrc into ~/.vimrc
+>Get inside of vim and then :PlugInstall
+>Get nodejs and npm
+>  Check using node -v    # should say v18.x.x
+>Get inside of vim and then :CocInstall coc-pyright
+>Copy my coc-settings.json into ~/.vim/coc-settings.json
+>Then, pip install flake8 black
+>Lastly, CocInstall coc-snippets
+
+Issues with nodejs npm
+>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+>source ~/.bashrc   # or ~/.zshrc, depending on your shell
+>nvm install 18
+>nvm use 18
+>nvm alias default 18
