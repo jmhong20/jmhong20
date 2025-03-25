@@ -36,3 +36,7 @@ Issues with nodejs npm
 >nvm install 18 \
 >nvm use 18 \
 >nvm alias default 18
+
+Not an editor command :PlugInstall
+> curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
