@@ -17,6 +17,9 @@ Here are some ideas to get you started:
 
 👨‍💻 I'm [Jaemin Hong], a graduate student passionate about financial AI and reinforcement learning.
 
+How to export a conda environment:
+>conda env export > environment.yml
+
 How to import my conda environments:
 >conda env create -f environment.yml
 
